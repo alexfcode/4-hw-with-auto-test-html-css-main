@@ -14,6 +14,7 @@
 body {
     font-family: "Inter", sans-serif; 
     color: #303030;
+    min-width: 375px;
     /* 📍 Минимальная ширина */ 
 }
 
@@ -222,7 +223,7 @@ footer {
     .main-section .wrapper {
         flex-direction: column-reverse;
         align-items: flex-start;
-        gap: 20px;
+        gap: 60px;
         /* 📍 Свойства для расположения элементов и отступа между ними */
     }
 
@@ -253,7 +254,7 @@ footer {
 @media screen and (max-width: 576px) {
     .main-section {
      padding-top: 30px;
-     padding-bottom: 30px;
+     padding-bottom: 60px;
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
